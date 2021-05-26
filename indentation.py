@@ -11,13 +11,13 @@ def long_function_name(
 
 
 # Aligned with opening delimiter.
+# 参数换行缩进，左括号后有参数，则换行后参数与其垂直对齐。
 var_one, var_two, var_three, var_four = 1, 2, 3, 4
 foo = long_function_name(var_one, var_two,
                          var_three, var_four)
 
 # Hanging indents should add a level.
-foo = long_function_name(
-    var_one, var_two,
-    var_three, var_four)
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
 
 # 文件最后一行为空行
